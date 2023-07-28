@@ -43,25 +43,16 @@ app.post("/recorder/v1/stop", (req, res, next) => {
   });
 });
 
-app.get("/recorder/v1/file/:path", (req, res, next) => {
+app.get("/recorder/v1/file/:path", async (req, res, next) => {
   const { path } = req.params;
   try {
-    RecordManager.onGetFile(path)
-    .then((file) => {
-      res.status(200).json({
-        success: true,
-        path: file,
-      });
-    })
-    .catch((e) => {
-      res.json({
-        success: false,
-        message: e.message,
-        path: null
-      });
+    const file = await RecordManager.onGetFile(path);
+    return res.status(200).json({
+      success: true,
+      path: file,
     });
   } catch (er) {
-    res.json({
+    return res.json({
       success: false,
       message: er.message,
       path: null
