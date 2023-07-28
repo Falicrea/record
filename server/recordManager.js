@@ -153,7 +153,7 @@ class RecordManager {
     return new Promise((resolve, reject) => {
       fs.readdir(`${recordingPath}`, (err, files) => {
         if (err) reject(err);
-        if (!Array.isArray(files)) reject(new Error('Aucun fichier'));
+        if (!Array.isArray(files) || typeof(files) === 'undefined') reject(new Error('Aucun fichier'));
         let found = [];
 
         files.forEach((file) => {
