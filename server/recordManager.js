@@ -153,10 +153,19 @@ class RecordManager {
     return new Promise(async (resolve, reject) => {
       try {
         const folderExists = await fs.existsSync(`${recordingPath}/${channelName}`);
-        if (!folderExists) reject(new Error('Le channel n\'exist pas'));
+        if (!folderExists) {
+          reject('Le channel n\'exist pas');
+          return;
+        }
         fs.readdir(`${recordingPath}/${channelName}`, (err, files) => {
-          if (err) reject(err);
-          if (!Array.isArray(files) || files === undefined) reject(new Error('Aucun fichier'));
+          if (err) {
+            reject(err.message);
+            return;
+          }
+          if (!Array.isArray(files)) {
+            reject('Aucun fichier');
+            return;
+          }
           let found = [];
           for (file of files) {
             if (path.extname(file) == ".mp4") {
@@ -166,7 +175,7 @@ class RecordManager {
           resolve(found);
         });
       } catch(er) {
-        reject(er);
+        reject(er.message);
       }
     });
   }
