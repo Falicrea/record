@@ -149,20 +149,24 @@ class RecordManager {
     }
   }
 
-  onGetFile() {
+  onGetFile(channelName) {
     return new Promise((resolve, reject) => {
-      fs.readdir(`${recordingPath}`, (err, files) => {
-        if (err) reject(err);
-        if (!Array.isArray(files) || typeof(files) === 'undefined') reject(new Error('Aucun fichier'));
-        let found = [];
+      try {
+        fs.readdir(`${recordingPath}/${channelName}`, (err, files) => {
+          if (err) reject(err);
+          if (!Array.isArray(files) || typeof(files) === 'undefined') reject(new Error('Aucun fichier'));
+          let found = [];
 
-        files.forEach((file) => {
-          if (path.extname(file) == ".mp4") {
-            found.push(`/output/recording/${file}`);
-          }
+          files.forEach((file) => {
+            if (path.extname(file) == ".mp4") {
+              found.push(`/output/recording/${file}`);
+            }
+          });
+          resolve(found);
         });
-        resolve(found);
-      });
+      } catch(er) {
+        reject(er);
+      }
     });
   }
 }
