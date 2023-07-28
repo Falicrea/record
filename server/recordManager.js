@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 
-const recordingPath = "../output/recording";
+const recordingPath = "output/recording";
 const canvasWidth = 1280;
 const canvasHeight = 720;
 
@@ -149,35 +149,22 @@ class RecordManager {
     }
   }
 
-  onGetFile(channelName) {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const folderExists = await fs.existsSync(`${recordingPath}/${channelName}`);
-        if (!folderExists) {
-          reject('Le channel n\'exist pas');
-          return;
-        }
-        fs.readdir(`${recordingPath}/${channelName}`, (err, files) => {
-          if (err) {
-            reject(err.message);
-            return;
-          }
-          if (!Array.isArray(files)) {
-            reject('Aucun fichier');
-            return;
-          }
-          let found = [];
-          for (file of files) {
-            if (path.extname(file) == ".mp4") {
-              found.push(`/output/recording/${file}`);
-            }
-          }
-          resolve(found);
-        });
-      } catch(er) {
-        reject(er.message);
+  async onGetFile(channelName) {
+    try {
+      const folderExists = fs.existsSync(`${recordingPath}/${channelName}`);
+      if (!folderExists) {
+        throw new Error('Le channel n\'exist pas');
       }
-    });
+      const files = fs.readdirSync(`${recordingPath}/${channelName}`);
+      for (file of files) {
+        if (path.extname(file) == ".mp4") {
+          return `/output/recording/${channelName}/${file}`;
+        }
+      }
+    } catch(er) {
+      console.log(er.message);
+      return null;
+    }
   }
 }
 
