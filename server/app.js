@@ -5,7 +5,10 @@ const RecordManager = require("./recordManager");
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
-
+app.use(express.static('public'));
+app.get('/', (req, res) => {
+  res.send('API Rec');
+});
 app.post("/recorder/v1/start", (req, res, next) => {
   let { body } = req;
   let { appId, channelName, channelKey } = body;
