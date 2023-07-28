@@ -1,0 +1,757 @@
+(3135): NOTICE (12:33:58:034) | main.cpp:382: video recording wrapper:8, idle:10 write:22, read:23, live:1,channelid:c741214e-16b7-4113-bd88-ff3294d8f231 
+(3135): NOTICE (12:33:58:034) | main.cpp:399: [ARS version] 8d55eaa7d6025c86d20305b3481e6791448028c2
+(3135): NOTICE (12:33:58:034) | main.cpp:405: uid 0 from vendor 811fbc84798a48648799e562b7017cb2 is joining channel c741214e-16b7-4113-bd88-ff3294d8f231
+(3135): NOTICE (12:33:58:049) | event_handler.cpp:273: SDK version: ed964e3; chat engine: afcdcb3
+(3135): NOTICE (12:33:58:049) | event_handler.cpp:278: decode_video:0,decode_audio:0
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:306:  user had disable the h.265 capbility.
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:325: Using random lowUdpPort & highUdpPort
+(3135): INFO    (12:33:58: 61 |    0)   3135; Using random lowUdpPort & highUdpPort
+(3135): INFO    (12:33:58: 6) | event_handler.cpp:349: Using config vocs p(3135): INFO    (12:33:58: 6) | event_handler.cpp:349: Using config vocs port : {"rtc.vocs_port":0}
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:233: getAudioParameters with type : 2
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:395: ======> sample rate : 48000, channels :2, bitrate : 192000
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:401:  av_sync_type: 2, mix:1, mixedVideoAudio:2
+(3135): NOTICE (12:33:58:061) | event_handler.cpp:417: run IntraRequest: 1
+(3135):   INFO (12:33:58:061) | event_handler.cpp:2577: encAConf_ bitrateKpbs0 channels 0 sample_rate 0 codecType 100
+(3135):   INFO (12:33:58:061) | event_handler.cpp:2584: encVConf_ bitrateKpbs2400 FPS 30 codecType 1
+(3135): INFO    (12:33:58: 61 |    0)   3145; network: 'NETWORK_UNKOWN' -> 'LAN' ipv4/v6 '172.25.171.191'/'' gw ''/'' subtype 0 level 80 ssid '****' bssid '' rssi 0 asu 6
+(3135): NOTICE (12:33:58:062) | event_handler.cpp:456: Secondary Recorder: Recorder format: off, samplerate: 16000. audioOnlyRecorder format: off
+(3135): NOTICE (12:33:58:062) | event_handler.cpp:496: Audio profile : samplerate 48000, channels 2, sampelsPerCall 960
+(3135): NOTICE (12:33:58:062) | event_handler.cpp:2255: initStream, trigger mode: 0 service mode: 0 init stream, autoSubscribe: 1
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2309: save all uidlist , isWhite:0 isAudio:1
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2309: save all uidlist , isWhite:0 isAudio:0
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2267: initStream autoSub default muteAllRemoteAudio & video mute: false
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2285: initStream muteAllRemoteAudioStreams 0 0
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2286: initStream muteAllRemoteVideoStreams 0 0
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2290: initStream RecordingMode muteLocalAudio/VideoStream 0 1
+(3135):   INFO (12:33:58:062) | event_handler.cpp:2297: initStream streamType high[0]:low[1] with 0
+(3135): INFO    (12:33:58: 62 |    1)   3135; API call to setVideoEncoderConfiguration 1280x720 30 fps -1 minFps 2400 kbps min -1 kbps mode 1 degradation prefer 0
+(3135): INFO    (12:33:58: 62 |    0)   3135; API call to enable video
+(3135): INFO    (12:33:58: 62 |    0)   3135; API call to join channel 'c741214e-16b7-4113-bd88-ff3294d8f231' uid 0, SDK ver 3.0.6 build 972, device info 'Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 9.3.0, GNU 
+(3135): INFO    (12:33:58: 62 |    0)   3146; AgoraNetworkTestThread Thread started: 0x5082cd8
+(3135): INFO    (12:33:58: 63 |    1)   3145; [rs] updateServers 199.190.44.36:8000, priority 1
+(3135): INFO    (12:33:58: 63 |    0)   3145; [rs] updateServers 199.190.44.37:8000, priority 1
+(3135): INFO    (12:33:58: 67 |    4)   3145; [rlbs] selected: 52.194.158.59:9700
+(3135): INFO    (12:33:58: 67 |    0)   3145; [rlbs] request rs list from 52.194.158.59:9700 with fake ch report_lbs_1688808838067.......
+(3135): INFO    (12:33:58: 72 |    5)   3145;  media_sdk3_private initializeChannelProfileAndClientRoleSettings channelProfile: 1, role:2, isUnifiedCommunicationMode():0
+(3135): INFO    (12:33:58: 73 |    1)   3145; [MIO] mediaIO controller created
+(3135): INFO    (12:33:58: 73 |    0)   3145; found 'NULL' device: 'Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 9.3.0, GNU ld (GNU Binutils) 2.34.0.20200220) #1 SMP Fri Jan 27 02:56:13 UTC 2023
+'
+(3135): INFO    (12:33:58: 73 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58: 73 |    0)   3145; [ap] selected: 106.75.133.43:8000
+(3135): INFO    (12:33:58: 74 |    1)   3145; connecting to 106.75.133.43:8000 handle 5390200, 42
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] CdsTdsRequest, session_id: 5BC86E22963343208C98DA74A5588472, install_id: B72079B1DB6C4236BD7A7078509C2DAE, detail: Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] creating channel with 106.75.133.43:8000, ts 0, flag: 72
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] selected: 47.244.4.122:1080
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] CdsTdsRequest, session_id: 5BC86E22963343208C98DA74A5588472, install_id: B72079B1DB6C4236BD7A7078509C2DAE, detail: Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] creating channel with 47.244.4.122:1080, ts 0, flag: 72
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] selected: 52.194.158.59:25000
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] CdsTdsRequest, session_id: 5BC86E22963343208C98DA74A5588472, install_id: B72079B1DB6C4236BD7A7078509C2DAE, detail: Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 
+(3135): INFO    (12:33:58: 74 |    0)   3145; [ap] creating channel with 52.194.158.59:25000, ts 0, flag: 72
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.videoCodecIndex":1}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.h265_dec_enable":false}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.allow_communication_fallback":false}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.user_set_channel_profile":1}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.client_role":2}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.vocs_port":0}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.audio.external_device":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.audio.audioSampleRate":48000}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.keep_prerotation":false}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.client_type":3}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.cap_intra_request":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.audio.audienceMode":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.audienceMode":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.recordingDelay":1000}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.recordingScene":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"rtc.video.recordingScene":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.recording":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.video.recording":true}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":48000,"channelCnt":2,"mode":1,"samplesPerCall":960}}
+(3135): INFO    (12:33:58: 74 |    0)   3145; [rp] {"che.audio.set_render_raw_audio_format":{"sampleRate":48000,"channelCnt":2,"mode":0,"samplesPerCall":960}}
+(3135): INFO    (12:33:58: 75 |    1)   3145; [rp] {"che.audio.profile":{"config":3,"scenario":0}}
+(3135): INFO    (12:33:58: 75 |    0)   3145; Audio Profile is set to: (config = 3, scenario = 0)
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.log_file":"/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/recording_0.log"}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.video.set_default_mute_peers":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.audio.set_default_mute_peers":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.audio.mute_peers":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.video.mute_peers":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.video.mute_me":true,"che.video.local.send":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.audio.mute_me":true,"che.audio.mute_me":true}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.video.set_remote_default_video_stream_type":0}
+(3135): INFO    (12:33:58: 75 |    0)   3145; API call to SetRemoteDefaultVideoStreamType: 0
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"che.video.local.camera_index":1024}
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"rtc.video.enabled":true}
+(3135): INFO    (12:33:58: 75 |    0)   3145; API call to enable video
+(3135): INFO    (12:33:58: 75 |    0)   3145; [rp] {"che.video.recording":false}
+(3135): INFO    (12:33:58: 75 |    0)   3145; doStopLastmileProbeTest
+(3135): INFO    (12:33:58: 75 |    0)   3145; ***CALL BEGIN: appid:'81****************************b2' cname:'c741214e-16b7-4113-bd88-ff3294d8f231' info:'' sid:'078E0C409DDC47598ACE758E68CF5825'
+(3135): INFO    (12:33:58: 75 |    0)   3145; addRef of media engine, ref=1
+(3135): INFO    (12:33:58: 75 |    0)   3145; [che] create chat engine, ctx:(nil)
+(3135): INFO    (12:33:58: 76 |    1)   3145; [MYDEBUG] large group call false
+(3135): INFO    (12:33:58: 76 |    0)   3145; ChatEngineParameterHelper::applyMediaEngineMode: 
+(3135): INFO    (12:33:58: 76 |    0)   3145; applyMediaEngineMode(): 264_Hardware decoding false,265_Hardware decoding true
+(3135): INFO    (12:33:58: 76 |    0)   3147; Thread with name:AudioAsyncTask started 
+(3135): INFO    (12:33:58: 76 |    0)   3145; engine git commit version:afcdcb3 and branch:(no
+(3135): INFO    (12:33:58: 82 |    6)   3145; audio jitterbuffer new smooth
+(3135): INFO    (12:33:58: 83 |    1)   3148; Thread with name:AudioFileDecoderThread started 
+(3135): INFO    (12:33:58: 83 |    0)   3145; OutputMixer: start audio file decoder thread successfully
+(3135): INFO    (12:33:58: 83 |    0)   3149; Thread with name:external_audio_module_thread started 
+(3135): INFO    (12:33:58: 83 |    0)   3150; Thread with name:WebRtc_event_timer_thread started 
+(3135): INFO    (12:33:58: 83 |    0)   3145; StereoPlayoutIsAvailable(), output: available=0
+(3135): INFO    (12:33:58: 83 |    0)   3145; StereoRecordingIsAvailable(), output: available=0
+(3135): INFO    (12:33:58: 83 |    0)   3151; Thread with name:EngineMonitorThread started 
+(3135): INFO    (12:33:58: 84 |    1)   3145; setMuteStatus, muted: On
+(3135): INFO    (12:33:58: 84 |    0)   3145; setMuteOutput, muted: false
+(3135): INFO    (12:33:58: 84 |    0)   3145; Audio Engine Init success
+(3135): INFO    (12:33:58: 84 |    0)   3145; Available number of cores:12
+(3135): INFO    (12:33:58: 86 |    2)   3145; PipelineManager::SetDest  engine = 0x536c000
+(3135): INFO    (12:33:58: 86 |    0)   3145; CreateVideoSendTrack
+(3135): INFO    (12:33:58: 86 |    0)   3152; Thread with name:VideoAsyncTask started 
+(3135): INFO    (12:33:58: 86 |    0)   3145; init: feature prerotation disabled
+(3135): INFO    (12:33:58: 86 |    0)   3145; Agora Engine video codec set to standard mode role mode 3
+(3135): INFO    (12:33:58: 86 |    0)   3145; Agora Engine video codec index 1
+(3135): INFO    (12:33:58: 86 |    0)   3145; Agora Engine video stream type = 0
+(3135): INFO    (12:33:58: 89 |    3)   3153; Thread with name:VideoEncodeThread started 
+(3135): INFO    (12:33:58: 89 |    0)   3145; Device type: 0
+(3135): INFO    (12:33:58: 89 |    0)   3145; Hardware encoding false
+(3135): INFO    (12:33:58: 89 |    0)   3145; last unique frame idx: -1 - -1
+(3135): INFO    (12:33:58: 89 |    0)   3145; Device type: 0
+(3135): INFO    (12:33:58: 89 |    0)   3145; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+(3135): INFO    (12:33:58: 89 |    0)   3145; low stream codec type = 1
+(3135): INFO    (12:33:58: 89 |    0)   3145; low bit rate limit 90267648
+(3135): INFO    (12:33:58: 89 |    0)   3145; dont need to increase unique frame idx
+(3135): INFO    (12:33:58: 89 |    0)   3145; the init unique frame idx: -1 - -1
+(3135): INFO    (12:33:58: 89 |    0)   3154; Thread with name:VideoProcessThread started 
+(3135): INFO    (12:33:58: 89 |    0)   3145; h264WebInteropEnable: enable 0
+(3135): INFO    (12:33:58: 89 |    0)   3145; setCaptureDevice: index=1024
+(3135): INFO    (12:33:58: 89 |    0)   3152; _setCodec: index=1 width=640 height=360 framerate=15
+(3135): INFO    (12:33:58: 89 |    0)   3152; _setCodec: Intra Request = 0
+(3135): INFO    (12:33:58:100 |   11)   3155; Thread with name:VideoEncodeThread started 
+(3135): INFO    (12:33:58:100 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:100 |    0)   3152; Hardware encoding false
+(3135): INFO    (12:33:58:100 |    0)   3152; last unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:100 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:100 |    0)   3152; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+(3135): INFO    (12:33:58:100 |    0)   3152; low stream codec type = 1
+(3135): INFO    (12:33:58:100 |    0)   3152; low bit rate limit 76222784
+(3135): INFO    (12:33:58:100 |    0)   3152; set last big unique frame idx: -1
+(3135): INFO    (12:33:58:100 |    0)   3152; set last small unique frame idx: -1
+(3135): INFO    (12:33:58:100 |    0)   3152; the init unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:154 |   54)   3146; [dns] parsed ip 103.235.46.40
+(3135): INFO    (12:33:58:172 |   18)   3146; [dns] parsed ip 172.217.170.164
+(3135): INFO    (12:33:58:189 |   17)   3145; blocking isCapturing() 100 ms
+(3135): INFO    (12:33:58:189 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=0x50a7c20
+(3135): INFO    (12:33:58:189 |    0)   3145; CreateVideoCapturer: interface=0x50a7c20
+(3135): INFO    (12:33:58:189 |    0)   3145; setMaxVideoBitrate: max bitrate=0
+(3135): INFO    (12:33:58:189 |    0)   3145; Setting video fec method 2, real using 2
+(3135): INFO    (12:33:58:190 |    1)   3145; SetBandwidthAgressiveLevel to 3.
+(3135): INFO    (12:33:58:190 |    0)   3145; dynamic sending rate control set to 2.
+
+(3135): INFO    (12:33:58:190 |    0)   3145; videoEngine created and initialize here
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateVideoSendTrack
+(3135): INFO    (12:33:58:190 |    0)   3145; [MIO] updateCapturer: ((nil)), type:(1)
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateAgoraDefaultCapture: type=0
+(3135): INFO    (12:33:58:190 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=0x5394be0
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateVideoCapturer: interface=0x5394be0
+(3135): INFO    (12:33:58:190 |    0)   3145; [MIO] updateLocalRender: ((nil)), type:(1)
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateAgoraDefaultRender
+(3135): INFO    (12:33:58:190 |    0)   3145; VideoSendTrackImpl::UpdateRenderer, renderer=0x5383bc0
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateVideoRenderer: interface=0x5383bc0
+(3135): INFO    (12:33:58:190 |    0)   3145; [MIO] video send track prepared !!
+(3135): INFO    (12:33:58:190 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=0x50a7c20
+(3135): INFO    (12:33:58:190 |    0)   3145; CreateVideoCapturer: interface=0x50a7c20
+(3135): INFO    (12:33:58:190 |    0)   3145; [che] applyVideoProfile: 1280x720 30 fps  -1 minFps 2400 kbps, min -1 kbps orientationMode 1 degradationPrefer 0
+(3135): INFO    (12:33:58:190 |    0)   3145; validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 2400000
+(3135): INFO    (12:33:58:190 |    0)   3145; setMaxVideoBitrate: max bitrate=2400000
+(3135): INFO    (12:33:58:190 |    0)   3145; setCodecRates: set frame rate to 30
+(3135): INFO    (12:33:58:190 |    0)   3145; setCodecResolution: set to 1280 x 720
+(3135): INFO    (12:33:58:190 |    0)   3152; _setCodec: index=1 width=640 height=360 framerate=30
+(3135): INFO    (12:33:58:190 |    0)   3145; Set broadcast min br to -1.
+(3135): INFO    (12:33:58:190 |    0)   3152; _setCodec: Intra Request = 0
+(3135): INFO    (12:33:58:190 |    0)   3145; [che] chat engine initialized
+(3135): INFO    (12:33:58:190 |    0)   3145; [time] process EngineInitialize takes 115
+(3135): INFO    (12:33:58:191 |    1)   3145; [vocs] vocs initialized
+(3135): INFO    (12:33:58:193 |    2)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:193 |    0)   3145; [cm] emit join channel signal, size=3
+(3135): INFO    (12:33:58:194 |    1)   3145; [cm] connection state changed from 1 to 2
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] lookup channel...
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] selected: 106.14.12.130:8000
+(3135): INFO    (12:33:58:194 |    0)   3145; connecting to 106.14.12.130:8000 handle 573ac00, 48
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] report bitrate: a/v/t: 56/2400/2456
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] creating channel with 106.14.12.130:8000, ts 1688808838194.......
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] selected: 47.244.4.122:1080
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] report bitrate: a/v/t: 56/2400/2456
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] creating channel with 47.244.4.122:1080, ts 1688808838194.......
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] selected: 54.223.118.211:25000
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] report bitrate: a/v/t: 56/2400/2456
+(3135): INFO    (12:33:58:194 |    0)   3145; [vocs] creating channel with 54.223.118.211:25000, ts 1688808838194.......
+(3135): INFO    (12:33:58:195 |    1)   3145; [rp] {"che.video.has_intra_request":false}
+(3135): INFO    (12:33:58:195 |    0)   3145; [rp] {"che.audio.audioSampleRate":48000}
+(3135): INFO    (12:33:58:195 |    0)   3145; [dns] parsed ip 23.251.119.107
+(3135): INFO    (12:33:58:195 |    0)   3145; [dns] parsed ip 13.245.24.78
+(3135): INFO    (12:33:58:195 |    0)   3145; [dns] parsed ip 138.3.250.88
+(3135): INFO    (12:33:58:195 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:195 |    0)   3145; [dns] parsed ip 104.166.161.75
+(3135): INFO    (12:33:58:195 |    0)   3145; [rs] dns parse result code: 0, servers size: 1
+(3135): INFO    (12:33:58:195 |    0)   3145; [rs] updateServers 104.166.161.75:8000, priority 2
+(3135): INFO    (12:33:58:195 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:200 |    5)   3156; Thread with name:VideoEncodeThread started 
+(3135): INFO    (12:33:58:200 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:200 |    0)   3152; Hardware encoding false
+(3135): INFO    (12:33:58:200 |    0)   3152; last unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:200 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:200 |    0)   3152; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+(3135): INFO    (12:33:58:200 |    0)   3152; low stream codec type = 1
+(3135): INFO    (12:33:58:200 |    0)   3152; low bit rate limit 76222784
+(3135): INFO    (12:33:58:200 |    0)   3152; set last big unique frame idx: -1
+(3135): INFO    (12:33:58:200 |    0)   3152; set last small unique frame idx: -1
+(3135): INFO    (12:33:58:200 |    0)   3152; the init unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:200 |    0)   3152; SetTargetWidthHeight width:640, height:360
+(3135): INFO    (12:33:58:200 |    0)   3152; _setCodec: index=1 width=1280 height=720 framerate=30
+(3135): INFO    (12:33:58:200 |    0)   3152; _setCodec: Intra Request = 0
+(3135): INFO    (12:33:58:211 |   11)   3157; Thread with name:VideoEncodeThread started 
+(3135): INFO    (12:33:58:211 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:211 |    0)   3152; Hardware encoding false
+(3135): INFO    (12:33:58:211 |    0)   3152; last unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:211 |    0)   3152; Device type: 0
+(3135): INFO    (12:33:58:211 |    0)   3152; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+(3135): INFO    (12:33:58:211 |    0)   3152; low stream codec type = 1
+(3135): INFO    (12:33:58:211 |    0)   3152; low bit rate limit 76222784
+(3135): INFO    (12:33:58:211 |    0)   3152; set last big unique frame idx: -1
+(3135): INFO    (12:33:58:211 |    0)   3152; set last small unique frame idx: -1
+(3135): INFO    (12:33:58:211 |    0)   3152; the init unique frame idx: -1 - -1
+(3135): INFO    (12:33:58:211 |    0)   3152; SetTargetWidthHeight width:1280, height:720
+(3135): INFO    (12:33:58:235 |   24)   3146; [dns] parsed ip 138.3.250.88
+(3135): INFO    (12:33:58:235 |    0)   3146; [dns] parsed ip 23.251.119.107
+(3135): INFO    (12:33:58:235 |    0)   3146; [dns] parsed ip 13.245.24.78
+(3135): INFO    (12:33:58:235 |    0)   3145; [dns] parsed ip 138.3.250.88
+(3135): INFO    (12:33:58:235 |    0)   3145; [dns] parsed ip 23.251.119.107
+(3135): INFO    (12:33:58:235 |    0)   3145; [dns] parsed ip 13.245.24.78
+(3135): INFO    (12:33:58:235 |    0)   3145; [ap] onParsedDns with err 0, 138.3.250.88, 23.251.119.107, 13.245.24.78, 
+(3135): INFO    (12:33:58:235 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:455 |  220)   3145; [dns] parsed ip 138.3.250.88
+(3135): INFO    (12:33:58:455 |    0)   3145; [dns] parsed ip 23.251.119.107
+(3135): INFO    (12:33:58:455 |    0)   3145; [dns] parsed ip 13.245.24.78
+(3135): INFO    (12:33:58:455 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:485 |   30)   3145; [dns] parsed ip 129.151.253.242
+(3135): INFO    (12:33:58:485 |    0)   3145; [dns] parsed ip 104.166.145.110
+(3135): INFO    (12:33:58:485 |    0)   3145; [dns] parsed ip 13.245.24.78
+(3135): INFO    (12:33:58:486 |    1)   3145; CacheManager: save cache to storage elapsed 1
+(3135): INFO    (12:33:58:532 |   46)   3145; [ap/u] **responsed from 106.75.133.43:8000, CDS(8).
+(3135): INFO    (12:33:58:532 |    0)   3145; [cs] applied directly: {"configs":{},"version":""}, elapsed: 0
+(3135): INFO    (12:33:58:532 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:58:532 |    0)   3145; [ap/u] **responsed from 106.75.133.43:8000, TDS(64).
+(3135): INFO    (12:33:58:532 |    0)   3145; [ap] onAPTdsRes success with config: {}, size: 0
+(3135): INFO    (12:33:58:533 |    1)   3145; CacheManager: save cache to storage elapsed 1
+(3135): INFO    (12:33:58:575 |   42)   3145; [ap/u] **responsed from 52.194.158.59:25000, CDS(8).
+(3135): INFO    (12:33:58:575 |    0)   3145; [ap/u] **responsed from 52.194.158.59:25000, TDS(64).
+(3135): INFO    (12:33:58:583 |    8)   3145; [ap/u] **responsed from 47.244.4.122:1080, CDS(8).
+(3135): INFO    (12:33:58:583 |    0)   3145; [ap/u] **responsed from 47.244.4.122:1080, TDS(64).
+(3135): INFO    (12:33:58:689 |  106)   3145; [vocs/u] **responsed from 47.244.4.122:1080, 3 vos, elapsed 627, server ts 1688808840928, wan ip 154.120.142.89
+(3135): INFO    (12:33:58:689 |    0)   3145; [vos] added server: 154.57.32.28:4006
+(3135): INFO    (12:33:58:689 |    0)   3145; [vos] added server: 104.166.161.83:4011
+(3135): INFO    (12:33:58:689 |    0)   3145; [vos] added server: 154.57.32.72:4003
+(3135): INFO    (12:33:58:689 |    0)   3145; [ch0] vos initialized
+(3135): INFO    (12:33:58:689 |    0)   3145; [vos] selected: 154.57.32.72:4003
+(3135): ERROR   (12:33:58:689 |    0)   3145; [ch0] login strategy=2
+(3135): INFO    (12:33:58:689 |    0)   3145; [ds]: ver 1 ds '{"streamType":5,"clientRole":2}'
+(3135): INFO    (12:33:58:689 |    0)   3145; Engine Capability: Intra Request=1
+(3135): INFO    (12:33:58:689 |    0)   3145; [che] getEngineCapabilities: 0:{0:COMMUNICATION,1:BROADCASTING,2:UNIFIED_COMMUNICATION},1:{0:L16,1:G722,2:OPUS,3:OPUS2ch,4:SILK,5:NOVA,6:AACLC,7:AACLC2ch,8:HEAAC,9:HEAAC2ch},2:{0:EVP,1:VP8,2:E264,3:H264},3:{0:INTRAR
+(3135): INFO    (12:33:58:689 |    0)   3145; [ch0] Login VOS (proto:12, cid:676538068, uid:3110021523, ts:1688808838689, ticket size:128, detail size:340 ds:1 stream:+A+VH) 2: 154.57.32.72:4003
+(3135): INFO    (12:33:58:690 |    1)   3145; add ping address 154.120.142.89
+(3135): INFO    (12:33:58:690 |    0)   3145; PING 154.120.142.89:0 16(44) bytes of data
+(3135): INFO    (12:33:58:690 |    0)   3145; [rlbs/u] responsed from 52.194.158.59:9700 with servers 128.1.105.156:8913
+(3135): INFO    (12:33:58:690 |    0)   3145; [rs] updateServers 128.1.105.156:8913, priority 3
+(3135): INFO    (12:33:58:690 |    0)   3145; [rs] updateServers 129.227.205.98:8913, priority 3
+(3135): INFO    (12:33:58:690 |    0)   3145; [rs] updateServers 154.57.32.32:8913, priority 3
+(3135): INFO    (12:33:58:829 |  139)   3145; [vocs/u] **responsed from 54.223.118.211:25000, 3 vos, elapsed 767, server ts 1688808841052, wan ip 154.120.142.89
+(3135): ERROR   (12:33:58:889 |   60)   3145; [ch0] login strategy=2
+(3135): INFO    (12:33:58:889 |    0)   3145; [ds]: ver 1 ds '{"streamType":5,"clientRole":2}'
+(3135): INFO    (12:33:58:889 |    0)   3145; [ch0] Login VOS (proto:12, cid:676538068, uid:3110021523, ts:1688808838889, ticket size:128, detail size:340 ds:1 stream:+A+VH) 1: 154.57.32.72:4003
+(3135): INFO    (12:33:59: 27 |    0)   3145; [ch0] **VOS response to login request (res 0 elapsed 965, server ts 1688808840687, s-c:1660) from 154.57.32.72:4003, and current dest server 154.57.32.72:4003
+(3135): INFO    (12:33:59: 27 |    0)   3145; [cap] synchronise capability set with seq: 1
+(3135): INFO    (12:33:59: 27 |    0)   3145; updateActiveVosList: ["154.57.32.72:4003"]
+(3135): INFO    (12:33:59: 27 |    0)   3145; [cm] connection state changed from 2 to 3
+(3135): INFO    (12:33:59: 27 |    0)   3145; RequestEncodeKeyFrame
+(3135): INFO    (12:33:59: 27 |    0)   3145; [che] start call begins
+(3135): INFO    (12:33:59: 27 |    0)   3145; Update settings: mode 3, rec_source -2, rec_fs 48000, builtin aec 0
+(3135): INFO    (12:33:59: 27 |    0)   3145; Set Application Mode in RTC Engine to No. 6 UC 0
+(3135): ERROR   (12:33:59: 27 |    0)   3145; GetCodec() invalid index (error=8004)
+(3135): INFO    (12:33:59: 27 |    0)   3145; SetCodec by type : No. 122, Channel 2
+(3135): INFO    (12:33:59: 28 |    1)   3145; [che] startLocalVideo: video capture has been enabled
+(3135): INFO    (12:33:59: 28 |    0)   3147; SetCodec by type : No. 122, Channel 2
+(3135): INFO    (12:33:59: 28 |    0)   3145; doStartLocalRender: init? 1 capture id -1 device 1024 capturing? 0 rendering? 0
+(3135): INFO    (12:33:59: 28 |    0)   3145; doStartLocalRender: Receive Only Mode, local renderer still on.
+(3135): INFO    (12:33:59: 28 |    0)   3145; [che] start call returns 0, elapsed 1
+(3135): INFO    (12:33:59: 28 |    0)   3145; [time] process EngineStartCall takes 1
+(3135): INFO    (12:33:59: 28 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 1000.
+(3135): INFO    (12:33:59: 28 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): INFO    (12:33:59: 28 |    0)   3145; join channel success: cname 'c741214e-16b7-4113-bd88-ff3294d8f231' uid 3110021523 elapsed 966
+(3135): NOTICE (12:33:59:029) | event_handler.cpp:1335: User 3110021523 join channel c741214e-16b7-4113-bd88-ff3294d8f231 success, elapsed: 966 ms
+(3135): INFO    (12:33:59: 29 |    1)   3144; User 3110021523 join channel c741214e-16b7-4113-bd88-ff3294d8f231 success, elapsed: 966 ms
+(3135): INFO    (12:33:59: 29 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): NOTICE (12:33:59:029) | event_handler.cpp:1112: Channel eventIds: mix mode:1 , min port:-1 , max port:-1 ,decode audio:0 , decode_video:0 , live:1 , idle:10 , audio only:0 video_only 0,syslog facility:8 , mix mode height:720 , mix mode width:1280 , mix mode fps:30 , mix mode kbps:2400 , mix av:2, streamType:0, triggerMode:0, lang:0
+(3135): INFO    (12:33:59: 29 |    0)   3135; Channel eventIds: mix mode:1 , min port:-1 , max port:-1 ,decode audio:0 , decode_video:0 , live:1 , idle:10 , audio only:0, video_only 0,syslog facility:8 , mix mode height:720 , mix mode width:1280 , mix mode fps:
+(3135): INFO    (12:33:59: 29 |    0)   3145; [rp] {"che.audio.specify.codec":"AACLC_2ch"}
+(3135): INFO    (12:33:59: 29 |    0)   3145; SetCodec is specified to be AACLC_2ch
+(3135): ERROR   (12:33:59: 29 |    0)   3145; GetCodec() invalid index (error=8004)
+(3135): INFO    (12:33:59: 29 |    0)   3145; enforced setCodec, set by specifyCodec
+(3135): INFO    (12:33:59: 29 |    0)   3145; SetCodec by type : No. 74, Channel 2
+(3135): INFO    (12:33:59: 31 |    2)   3145; [rp] {"che.audio.audienceMode":false}
+(3135): INFO    (12:33:59: 31 |    0)   3145; [rp] {"che.video.audienceMode":false}
+(3135): INFO    (12:33:59: 31 |    0)   3145; [rp] {"che.video.server_mode":true}
+(3135): INFO    (12:33:59: 31 |    0)   3145; switchServerMode : mosaic=1
+(3135): WARN    (12:33:59: 31 |    0)   3145; stopCapture: VideoEngine haven't startCapture
+(3135): INFO    (12:33:59: 31 |    0)   3145; setCaptureDevice: index=1024
+(3135): INFO    (12:33:59: 31 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=0x50a7c20
+(3135): WARN    (12:33:59: 31 |    0)   3145; VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+(3135): INFO    (12:33:59: 31 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=0x50a7c20
+(3135): WARN    (12:33:59: 31 |    0)   3145; VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+(3135): INFO    (12:33:59: 31 |    0)   3145; Recording JoinEvent Argus report.......
+(3135): INFO    (12:33:59: 31 |    0)   3152; Create participant 0
+(3135): INFO    (12:33:59: 31 |    0)   3152; _startCapture: device? 1024 init? 1 local enabled? 1 capturing? 0 rendering? 0
+(3135): INFO    (12:33:59: 31 |    0)   3152; VideoSendTrackImpl::UpdateCapturer capturer=0x50a7c20
+(3135): WARN    (12:33:59: 31 |    0)   3152; VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+(3135): INFO    (12:33:59: 31 |    0)   3152; [rtpSender] set paced sender status 1.
+
+(3135): INFO    (12:33:59: 31 |    0)   3152; [rtpSender] set paced sender mode 0.
+
+(3135): INFO    (12:33:59: 31 |    0)   3152; Initializing paced sender for broadcasting, strategy 2.
+(3135): INFO    (12:33:59: 31 |    0)   3152; AgoraVideoInput::Init thread=1, type=100, device=External Device
+(3135): INFO    (12:33:59: 31 |    0)   3158; Thread with name:AgoraInputThread started 
+(3135): INFO    (12:33:59: 31 |    0)   3159; Thread with name:ExternalCaptureThread started 
+(3135): INFO    (12:33:59: 31 |    0)   3152; h264WebInteropEnable: enable 0
+(3135): INFO    (12:33:59: 31 |    0)   3152; _setCodec: index=1 width=1280 height=720 framerate=30
+(3135): INFO    (12:33:59: 31 |    0)   3152; _setCodec: Intra Request = 0
+(3135): INFO    (12:33:59: 31 |    0)   3152; setMaxVideoBitrate: max bitrate=2400000
+(3135): INFO    (12:33:59: 31 |    0)   3152; SetTargetWidthHeight width:1280, height:720
+(3135): INFO    (12:33:59: 31 |    0)   3152; AgoraVideoInput::Start width=1280, height=720, fps=30
+(3135): INFO    (12:33:59: 31 |    0)   3160; Thread with name:WebRtc_event_timer_thread started 
+(3135): INFO    (12:33:59: 31 |    0)   3152; _startCapture: startCapture success
+(3135): INFO    (12:33:59: 31 |    0)   3152; SetStreamState: localVideoState 1, error 0
+(3135): INFO    (12:33:59: 32 |    1)   3152; SetBandwidthAgressiveLevel to 3.
+(3135): INFO    (12:33:59: 32 |    0)   3152; RequestEncodeKeyFrame
+(3135): INFO    (12:33:59: 32 |    0)   3152; doStartLocalRender: init? 1 capture id -1 device 1024 capturing? 1 rendering? 0
+(3135):   INFO (12:33:59:032) | peer_stream.cpp:280: startVideoRecord uid:0
+(3135): INFO    (12:33:59: 33 |    1)   3147; StartPlayout complete
+(3135): INFO    (12:33:59: 33 |    0)   3147; StartSend
+(3135): INFO    (12:33:59: 34 |    1)   3145; audio setPeerAudioMuteStatus: uid 1 muted 0
+(3135): ERROR   (12:33:59: 34 |    0)   3145; onPeerAudioMuteStatus: uid 1 already unmuted
+(3135): INFO    (12:33:59: 34 |    0)   3145; video setPeerVideoMuteStatus: uid 1 muted 1
+(3135): INFO    (12:33:59: 34 |    0)   3145; [pm] peer 1 is online
+(3135): INFO    (12:33:59: 34 |    0)   3145; notifyPeerCount: cnt 1
+(3135): INFO    (12:33:59: 34 |    0)   3145; [che] onPeerJoined: m_validPeers.insert uid 1, m_validPeers.size() 1
+(3135): NOTICE (12:33:59:034) | event_handler.cpp:1491: offset 972ms: 1 joined the channel
+(3135): NOTICE (12:33:59:034) | event_handler.cpp:1950: User 1 request 0 stream
+(3135): NOTICE (12:33:59:034) | media_file_legacy.cpp:953: LegacyMediaFile::UpdateUserOfflineStatePerJoinuid=1,IsUserOffline_=0
+(3135): INFO    (12:33:59: 34 |    0)   3144; offset 972ms: 1 joined the channel
+ deo:0 enabledVideo:1 enabledLocalVideo:1 online:1
+(3135): INFO    (12:33:59: 34 |    0)   3144; offset 972ms: 1 joined the channel
+(3135): NOTICE (12:33:59:034) | peer_stream.cpp:235: status changed uid:1 isMuteAudio:0 enabledAudio:1 enabledLocalAudio:1 online:1
+(3135): INFO    (12:33:59: 34 |    0)   3135; User 1 request 0 stream
+(3135): NOTICE (12:33:59:034) | rtmp_renderer.cpp:954: User 1 joined
+(3135): NOTICE (12:33:59:036) | event_handler.cpp:2060: SET_VIDEO_MIXING_LAYOUT_URI
+(3135): INFO    (12:33:59: 36 |    2)   3135; SET_VIDEO_MIXING_LAYOUT_URI
+(3135): NOTICE (12:33:59:040) | event_handler.cpp:2049: set mixing video layout count: 1
+(3135): INFO    (12:33:59: 40 |    4)   3135; set mixing video layout count: 1
+(3135): INFO    (12:33:59: 41 |    1)   3145; [vocs/u] **responsed from 106.14.12.130:8000, 3 vos, elapsed 979, server ts 1688808841115, wan ip 154.120.142.89
+(3135): NOTICE (12:33:59:043) | event_handler.cpp:1751: User 1 enabled video 1
+(3135): INFO    (12:33:59: 43 |    2)   3145; [pm] peer 1 has enabled video
+(3135): INFO    (12:33:59: 43 |    0)   3145; video setPeerVideoMuteStatus: uid 1 muted 1
+(3135): INFO    (12:33:59: 43 |    0)   3145; onTracerFirstRemoteVideo uid 1 codec 2 elapsed 981
+(3135): INFO    (12:33:59: 44 |    1)   3144; User 1 enabled video 1
+(3135): INFO    (12:33:59: 44 |    0)   3145; [miaokai] Received 1st packet of stream 0, from uid 1, frame number 17.
+
+(3135): INFO    (12:33:59: 44 |    0)   3145; Create participant 1
+(3135): INFO    (12:33:59: 44 |    0)   3147; StartRecording complete
+(3135): INFO    (12:33:59: 46 |    2)   3145; Codec: VP8, Payload type 100, Height 360, Width 640, Bitrate 200,Framerate 15.
+(3135): INFO    (12:33:59: 46 |    0)   3145; Codec: H264, Payload type 107, Height 360, Width 640, Bitrate 200,Framerate 15.
+(3135): INFO    (12:33:59: 46 |    0)   3145; Codec: H265, Payload type 109, Height 360, Width 640, Bitrate 200,Framerate 15.
+(3135): INFO    (12:33:59: 46 |    0)   3145; Recording SDK minimum delay 1000, default delay 400.
+(3135): INFO    (12:33:59: 46 |    0)   3161; Thread with name:VideoDecodingThread started 
+(3135):   INFO (12:33:59:046) | peer_stream.cpp:280: startVideoRecord uid:1
+(3135): INFO    (12:33:59: 47 |    1)   3145; User 1 has enabled intra request mode
+(3135): INFO    (12:33:59: 47 |    0)   3145; User 1 has enabled nasa feedback
+(3135): INFO    (12:33:59: 47 |    0)   3145; uid 1 stream encoded by hardware encoder 0 (prev -1)
+(3135): INFO    (12:33:59: 47 |    0)   3145; Intra Request issued, uid=1, force_low=0
+(3135):   INFO (12:33:59:047) | event_handler.cpp:1437: onRemoteVideoStateChanged uid:1, new video state:0
+(3135):   INFO (12:33:59:048) | event_handler.cpp:1437: onRemoteVideoStateChanged uid:1, new video state:1
+(3135): INFO    (12:33:59: 48 |    1)   3145; [cap] Receive the capability with seq: 1
+(3135): INFO    (12:33:59: 48 |    0)   3145; [che] setEngineCapabilities: 0:{1},1:{1,2,3,4,5,6,7,8,9},2:{1,3},3:{0,2},4:{0,1,2},5:{0},16:{0,1},
+(3135): INFO    (12:33:59: 48 |    0)   3145; updateCodecRequest: index=1
+(3135): INFO    (12:33:59: 48 |    0)   3145; updateCodecRequest: increase codec index from 1 to 1 not allowed
+(3135): INFO    (12:33:59: 48 |    0)   3145; [cm] onCapabilitiesChanged: Do not fallback for Broadcasting mode
+(3135): WARN    (12:33:59: 51 |    3)   3147; SetAgcStatus() failed to set Agc mode (error=10028)
+(3135): INFO    (12:33:59: 51 |    0)   3147; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+(3135): INFO    (12:33:59: 51 |    0)   3147; MID = 0, Routing = 0
+(3135): INFO    (12:33:59: 51 |    0)   3147; output: kDummyAudio
+(3135): ERROR   (12:33:59: 51 |    0)   3147;   unknown audio layer (error=10009)
+(3135):   INFO (12:33:59:051) | peer_stream.cpp:254: startAudioRecord uid:0
+(3135): INFO    (12:33:59: 51 |    0)   3147;   Output: audioLayer=0
+(3135): INFO    (12:33:59: 68 |   17)   3145; [cap] Receive the old capability set version: 1, while the latest is 1
+(3135): INFO    (12:33:59:227 |  159)   3145; [cap] synchronise capability set with seq: 1
+(3135): INFO    (12:33:59:238 |   11)   3145; [miaokai] Assembled 1st frame from stream 0.
+
+(3135): INFO    (12:33:59:321 |   83)   3145; [ch0] **VOS response to login request (res 0 elapsed 1259, server ts 1688808840993, s-c:1672) from 154.57.32.72:4003, and current dest server 154.57.32.72:4003
+(3135): INFO    (12:33:59:321 |    0)   3145; updateActiveVosList: ["154.57.32.72:4003"]
+(3135): INFO    (12:33:59:321 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:33:59:428 |  107)   3145; [cap] synchronise capability set with seq: 1
+(3135): INFO    (12:33:59:541 |  113)   3145; [cap] Receive the capability with seq: 2
+(3135): INFO    (12:33:59:541 |    0)   3145; [che] setEngineCapabilities: 0:{1},1:{1,2,3,4,5,6,7,8,9},2:{1,3},3:{0,2},4:{0,1,2},5:{0},16:{0,1},
+(3135): INFO    (12:33:59:541 |    0)   3145; updateCodecRequest: index=1
+(3135): INFO    (12:33:59:541 |    0)   3145; updateCodecRequest: increase codec index from 1 to 1 not allowed
+(3135): INFO    (12:33:59:541 |    0)   3145; [cm] onCapabilitiesChanged: Do not fallback for Broadcasting mode
+(3135): INFO    (12:33:59:541 |    0)   3145; [cap] Received capability set ack seq: 1
+(3135): INFO    (12:33:59:542 |    1)   3145; [ch0] rtt: 513
+(3135): INFO    (12:33:59:705 |  163)   3145; last intra frame 74 21 8 with 9 packets starting seq 66 stream 0x51 frome user 0 0 has been cached at 3431
+(3135): INFO    (12:33:59:959 |  254)   3145; last intra frame 88 23 11 with 12 packets starting seq 77 stream 0x51 frome user 0 0 has been cached at 3431
+(3135): WARN    (12:33:59:961 |    2)   3161; Idr miss, internal frn wrap around, reset. prevfrn (1), cfrn (0), maxfrn (65536)
+(3135): INFO    (12:34: 0: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 100.
+(3135): INFO    (12:34: 0: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): INFO    (12:34: 0: 90 |   46)   3145; [cap] Receive the old capability set version: 2, while the latest is 2
+(3135): WARN    (12:34: 0:203 |  113)   3161; first key frame (ts 3570226758 type 4) hand over to decoder directly, not to buffer it
+(3135): INFO    (12:34: 0:203 |    0)   3161; Destroy decoder.
+(3135): INFO    (12:34: 0:205 |    2)   3161; Finish init decoder.
+(3135): INFO    (12:34: 0:205 |    0)   3161; [miaokai] Decoded 1st frame from stream 0.
+
+(3135): INFO    (12:34: 0:205 |    0)   3161; Intra Request issued, uid=1, force_low=0
+(3135): INFO    (12:34: 0:265 |   60)   3145; last intra frame 118 26 11 with 12 packets starting seq 107 stream 0x51 frome user 0 0 has been cached at 3431
+(3135): WARN    (12:34: 0:265 |    0)   3161; Idr miss, internal frn wrap around, reset. prevfrn (2), cfrn (0), maxfrn (65536)
+(3135): WARN    (12:34: 0:346 |   81)   3161; first key frame (ts 3570234768 type 4) hand over to decoder directly, not to buffer it
+(3135): INFO    (12:34: 0:440 |   94)   3145; last intra frame 133 28 11 with 12 packets starting seq 122 stream 0x51 frome user 0 0 has been cached at 3431
+(3135): WARN    (12:34: 0:447 |    7)   3161; Idr miss, internal frn wrap around, reset. prevfrn (1), cfrn (0), maxfrn (65536)
+(3135): WARN    (12:34: 0:487 |   40)   3161; first key frame (ts 3570244128 type 4) hand over to decoder directly, not to buffer it
+(3135): INFO    (12:34: 0:487 |    0)   3161; Intra Request issued, uid=1, force_low=0
+(3135): WARN    (12:34: 0:588 |  101)   3161; first key frame (ts 3570251778 type 3) hand over to decoder directly, not to buffer it
+(3135):   INFO (12:34:00:588) | peer_stream.cpp:571: onDecodeVideo uid:1 has video, payload_type:107
+(3135):   INFO (12:34:00:588) | peer_stream.cpp:601:  received video frame type: H.264
+(3135): INFO    (12:34: 0:612 |   24)   3161; [che] onVideoSizeChanged: uid 1 720x1280 rotate 0
+(3135):   INFO (12:34:00:612) | rtmp_renderer.cpp:438: onRenderVideoFrame, set has user video
+(3135): INFO    (12:34: 0:614 |    2)   3145; [MIO] updateRemoteRenderer for uid(1) with render((nil)), type(1)
+(3135): INFO    (12:34: 0:614 |    0)   3145; CreateVideoReceiveTrack: uid=1
+(3135): INFO    (12:34: 0:614 |    0)   3145; CreateAgoraDefaultRender
+(3135): INFO    (12:34: 0:614 |    0)   3145; VideoReceiveTrackImpl::UpdateRenderer, track_id=1, renderer=0x5f8d5c0
+(3135): INFO    (12:34: 0:614 |    0)   3145; CreateVideoRenderer: interface=0x5f8d5c0
+(3135): INFO    (12:34: 0:614 |    0)   3145; onRemoteFirstFrameDecoded user 1 resolution 720 * 1280, elapsed 2552
+(3135): NOTICE (12:34:00:614) | event_handler.cpp:1616: onFirstRemoteVideoDecoded User 1
+(3135): INFO    (12:34: 0:614 |    0)   3161; doStartRemoteRender: uid 1
+(3135): INFO    (12:34: 0:614 |    0)   3144; onFirstRemoteVideoDecoded User 1
+(3135):   INFO (12:34:00:614) | event_handler.cpp:1437: onRemoteVideoStateChanged uid:1, new video state:2
+(3135):   INFO (12:34:00:614) | AVEncoder.cpp:689: init fdk_aac codec, channels:2 bitrate : 96000 sampleRate 48000
+(3135):   INFO (12:34:00:614) | AVEncoder.cpp:730: fifo_frame_ format:s16 chanels:2 nb_samples:1024 duration:21 ms 
+(3135):   INFO (12:34:00:614) | AVEncoder.cpp:792: init last_pts_ 1.64737e+08 from pts 3432021
+(3135): INFO    (12:34: 0:616 |    2)   3158; [che] onVideoSizeChanged: uid 0 1280x720 rotate 0
+(3135): INFO    (12:34: 0:617 |    1)   3157; VQC module init done. stream no 0, mode 0, structure 257, scenario 512, preference 0, disableVQC 0,.
+(3135): INFO    (12:34: 0:618 |    1)   3157; Encoder rc method 3
+(3135):   INFO (12:34:00:634) | AVRecorderImpl.cpp:104: New mixing record file:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.ts limitDuration:0, mixed_video_audio : 2
+(3135):   INFO (12:34:00:634) | event_handler.cpp:65: multi_muxer.cpp:20: MultiMuxer file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633
+(3135):   INFO (12:34:00:634) | event_handler.cpp:65: multi_muxer.cpp:102: addTargetFile type:-1
+(3135):   INFO (12:34:00:634) | event_handler.cpp:65: multi_muxer.cpp:102: addTargetFile type:1
+(3135):   INFO (12:34:00:660) | event_handler.cpp:65: multi_muxer.cpp:31: start file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633
+(3135):   INFO (12:34:00:660) | event_handler.cpp:65: multi_muxer.cpp:366: getFileName type:1
+(3135):   INFO (12:34:00:661) | event_handler.cpp:65: ff_muxer.cpp:66: setFileName filename: /home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4
+(3135):  ERROR (12:34:00:662) | event_handler.cpp:74: multi_muxer.cpp:78:  multi muxer start success, base file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633, muxer count:1
+(3135):   INFO (12:34:00:662) | event_handler.cpp:65: ff_muxer.cpp:218: addVideoStream file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4
+(3135):   INFO (12:34:00:662) | event_handler.cpp:65: ffmpeg_utils.cpp:262: VideoMetaData params list : extra data:0x8cf2458, extradata_size:35, num:1, den:1000, bitrate:500,width:1280, height:720, rotation:0, fps:15, codec_type:2, profile:0, level:0
+(3135):  ERROR (12:34:00:662) | event_handler.cpp:74: ff_muxer.cpp:240: addVideoStream create h264_mp4toannnexb filter failed!
+(3135):   INFO (12:34:00:662) | event_handler.cpp:65: ff_muxer.cpp:301: addVideoStream filename: /home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4 stream->time_base.den 90000
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ff_muxer.cpp:113: addAudioStream file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ffmpeg_utils.cpp:253: AudioMetaData params list : extra data:0, extradata_size:0, num:1, den:48000, bitrate:48000,samplerate:48000, channels:2, bits_per_raw_sample:16, format:100, codec_type:101, profile:-99
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ff_muxer.cpp:133: addAudioStream create aac_adtstoasc filter success!
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ff_muxer.cpp:138: Not user ffmepg new api!
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ff_muxer.cpp:212: addAudioStream filename: /home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4 stream->time_base.den 48000
+(3135):   INFO (12:34:00:674) | event_handler.cpp:65: ff_muxer.cpp:307: start start begin 
+(3135):   INFO (12:34:00:675) | event_handler.cpp:65: ff_muxer.cpp:336: startset moov success,result : 0
+(3135):   INFO (12:34:00:676) | event_handler.cpp:65: ff_muxer.cpp:350: start start success 
+(3135): INFO    (12:34: 0:770 |  152)   3145; [pm] peer 1 has muted audio
+(3135): INFO    (12:34: 0:770 |    0)   3145; audio setPeerAudioMuteStatus: uid 1 muted 1
+(3135): INFO    (12:34: 0:770 |    0)   3145; [che] setRemoteAudioState: uid 1 not found or same state 0 suppressed
+(3135): NOTICE (12:34:00:770) | event_handler.cpp:1705: User 1 mute Audio 1
+(3135): INFO    (12:34: 0:770 |    0)   3144; User 1 mute Audio 1
+(3135): NOTICE (12:34:00:770) | media_file_legacy.cpp:1184: LegacyMediaFile:: uid:1set audio mute1
+(3135): NOTICE (12:34:00:770) | peer_stream.cpp:232: status changed uid:1 isMuteVideo:0 enabledVideo:1 enabledLocalVideo:1 online:1
+(3135): NOTICE (12:34:00:770) | peer_stream.cpp:235: status changed uid:1 isMuteAudio:1 enabledAudio:1 enabledLocalAudio:1 online:1
+(3135): WARN    (12:34: 0:777 |    7)   3161; Idr miss, internal frn wrap around, reset. prevfrn (1), cfrn (0), maxfrn (65536)
+(3135): INFO    (12:34: 0:964 |  187)   3145; [pm] peer 1 has enabled local video
+(3135): INFO    (12:34: 0:964 |    0)   3145; video setPeerVideoMuteStatus: uid 1 muted 0
+(3135): INFO    (12:34: 0:964 |    0)   3145; [che] notify web peer joined
+(3135): INFO    (12:34: 0:964 |    0)   3145; notifyWebPeerJoined: 1
+(3135): NOTICE (12:34:00:964) | event_handler.cpp:1774: User 1 enabled local video 1
+(3135): INFO    (12:34: 0:964 |    0)   3144; User 1 enabled local video 1
+(3135):   INFO (12:34:00:964) | event_handler.cpp:1437: onRemoteVideoStateChanged uid:1, new video state:2
+(3135): WARN    (12:34: 1:  3 |    0)   3161; Idr miss, internal frn wrap around, reset. prevfrn (2), cfrn (0), maxfrn (65536)
+(3135): WARN    (12:34: 1: 34 |   31)   3149; audio device captured signal too small
+(3135): WARN    (12:34: 1: 43 |    9)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34: 1: 44 |    1)   3145; Recording scene, delay in parameter 1000, delay in options 200.
+(3135): INFO    (12:34: 1: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34: 1:127 |   83)   3161; Idr miss, internal frn wrap around, reset. prevfrn (1), cfrn (0), maxfrn (65536)
+(3135): INFO    (12:34: 2: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 300.
+(3135): INFO    (12:34: 2: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): INFO    (12:34: 3: 31 |    0)   3145; SetStreamState: localVideoState 2, error 0
+(3135): WARN    (12:34: 3: 33 |    2)   3149; audio device captured signal too small
+(3135): WARN    (12:34: 3: 44 |   11)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34: 3: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 400.
+(3135): INFO    (12:34: 3: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): INFO    (12:34: 3: 61 |   17)   3145; [rs] **report stats: seq: 76, report list size 12, tx/rx: 12908/3072, cache size: 0
+(3135): INFO    (12:34: 3: 61 |    0)   3145; [rs] report server1: 128.1.105.156:8913
+(3135): NOTICE (12:34:03:532) | event_handler.cpp:875: session is receiving video 
+(3135): NOTICE (12:34:03:532) | event_handler.cpp:890: trigger receiving stream status changed
+(3135): INFO    (12:34: 4: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 500.
+(3135): INFO    (12:34: 4: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): INFO    (12:34: 5: 33 |    0)   3149; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+(3135): WARN    (12:34: 5: 33 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34: 5: 43 |   10)   3145; Recording scene, delay in parameter 1000, delay in options 600.
+(3135): INFO    (12:34: 5: 43 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34: 5: 44 |    1)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34: 5: 44 |    0)   3149; Audio statistics - rec count: record count = 200 signal level: near_in = 0, near_out = 0 encode_in = 0
+(3135): INFO    (12:34: 6: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 700.
+(3135): INFO    (12:34: 6: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34: 7: 34 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34: 7: 43 |    9)   3145; Recording scene, delay in parameter 1000, delay in options 800.
+(3135): INFO    (12:34: 7: 43 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34: 7: 53 |   10)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34: 8: 44 |    0)   3145; Recording scene, delay in parameter 1000, delay in options 900.
+(3135): INFO    (12:34: 8: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34: 9: 34 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34: 9: 44 |   10)   3145; Recording scene, delay in parameter 1000, delay in options 1000.
+(3135): INFO    (12:34: 9: 44 |    0)   3145; setNetEQMinimumPlayoutDelay delay(1000)
+(3135): WARN    (12:34:11: 43 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:13: 44 |    1)   3149; audio device captured signal too small
+(3135): WARN    (12:34:13: 54 |   10)   3149; audio device captured signal all 0s
+(3135): WARN    (12:34:15: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:17: 44 |    0)   3149; audio device captured signal too small
+(3135): NOTICE (12:34:18:029) | event_handler.cpp:926: [ARS/15s]event cnts:26, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): INFO    (12:34:18: 29 |    0)   3135; [ARS/15s]event cnts:26, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): INFO    (12:34:19: 33 |    4)   3149; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+(3135): WARN    (12:34:19: 44 |   11)   3149; audio device captured signal too small
+(3135): WARN    (12:34:19: 64 |   20)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34:19: 64 |    0)   3149; Audio statistics - rec count: record count = 601 signal level: near_in = 0, near_out = 0 encode_in = 0
+(3135): WARN    (12:34:21: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:23: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:25: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:25: 64 |   20)   3149; audio device captured signal all 0s
+(3135): WARN    (12:34:27: 43 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:29: 44 |    1)   3149; audio device captured signal too small
+(3135): INFO    (12:34:30: 62 |   18)   3145; **CALL STATS: duration 29s cpu app/total 3.14/3.8 battery 255 tx/rx: 8/462 kbps 45.884K/1.276M bytes
+(3135): WARN    (12:34:31: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:31: 73 |   29)   3149; audio device captured signal all 0s
+(3135): WARN    (12:34:33: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34:33:655 |  611)   3157; VCMEncodedFrameCallback::Encoded frame 1001
+(3135): INFO    (12:34:33:688 |   33)   3157; VCMEncodedFrameCallback::Encoded frame 1002
+(3135): INFO    (12:34:33:720 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1003
+(3135): INFO    (12:34:33:752 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1004
+(3135): INFO    (12:34:33:786 |   34)   3157; VCMEncodedFrameCallback::Encoded frame 1005
+(3135): INFO    (12:34:33:819 |   33)   3157; VCMEncodedFrameCallback::Encoded frame 1006
+(3135): INFO    (12:34:33:851 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1007
+(3135): INFO    (12:34:33:885 |   34)   3157; VCMEncodedFrameCallback::Encoded frame 1008
+(3135): INFO    (12:34:33:917 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1009
+(3135): INFO    (12:34:33:951 |   34)   3157; VCMEncodedFrameCallback::Encoded frame 1010
+(3135): INFO    (12:34:33:983 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1011
+(3135): INFO    (12:34:34: 17 |    0)   3157; VCMEncodedFrameCallback::Encoded frame 1012
+(3135): INFO    (12:34:34: 50 |   33)   3157; VCMEncodedFrameCallback::Encoded frame 1013
+(3135): INFO    (12:34:34: 82 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1014
+(3135): INFO    (12:34:34:117 |   35)   3157; VCMEncodedFrameCallback::Encoded frame 1015
+(3135): INFO    (12:34:34:149 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1016
+(3135): INFO    (12:34:34:181 |   32)   3157; VCMEncodedFrameCallback::Encoded frame 1017
+(3135): INFO    (12:34:34:214 |   33)   3157; VCMEncodedFrameCallback::Encoded frame 1018
+(3135): INFO    (12:34:34:249 |   35)   3157; VCMEncodedFrameCallback::Encoded frame 1019
+(3135): WARN    (12:34:35: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34:37: 28 |    0)   3145; [rs] **report stats: seq: 107, report list size 0, tx/rx: 26614/6480, cache size: 0
+(3135): INFO    (12:34:37: 28 |    0)   3145; [rs] report server1: 129.227.205.98:8913
+(3135): INFO    (12:34:37: 33 |    5)   3149; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+(3135): WARN    (12:34:37: 43 |   10)   3149; audio device captured signal too small
+(3135): WARN    (12:34:37: 74 |   31)   3149; audio device captured signal all 0s
+(3135): INFO    (12:34:37: 74 |    0)   3149; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+(3135): NOTICE (12:34:38:028) | event_handler.cpp:926: [ARS/15s]event cnts:20, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): INFO    (12:34:38: 28 |    0)   3135; [ARS/15s]event cnts:20, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): WARN    (12:34:39: 44 |   16)   3149; audio device captured signal too small
+(3135): INFO    (12:34:39:945 |  901)   3145; [pm] peer 1 has unmuted audio
+(3135): INFO    (12:34:39:945 |    0)   3145; audio setPeerAudioMuteStatus: uid 1 muted 0
+(3135): INFO    (12:34:39:945 |    0)   3145; [che] setRemoteAudioState: uid 1 invalid initial state 2 suppressed
+(3135): NOTICE (12:34:39:945) | event_handler.cpp:1705: User 1 mute Audio 0
+(3135): NOTICE (12:34:39:945) | media_file_legacy.cpp:1184: Legacy(3135): NOTICE (12:34:39:945) | media_file_legacy.cpp:1184: LegacyMediaFile:: uid:1set audio mute0
+(3135): NOTICE (12:34:39:945) | peer_stream.cpp:232: status changed uid:1 isMuteVideo:0 enabledVideo:1 enabledLocalVideo:1 online:1
+(3135): NOTICE (12:34:39:945) | peer_stream.cpp:235: status changed uid:1 isMuteAudio:0 enabledAudio:1 enabledLocalAudio:1 online:1
+(3135): INFO    (12:34:40:143 |    0)   3145; onFirstRemoteAudioFrame uid 1 codec 122 elapsed 42081
+(3135): INFO    (12:34:40:143 |    0)   3145; onTracerFirstRemoteAudio uid 1 codec 122 elapsed 42081
+(3135): NOTICE (12:34:40:143) | event_handler.cpp:1671: onFirstRemoteAudioFrame User 1
+(3135): INFO    (12:34:40:143 |    0)   3144; onFirstRemoteAudioFrame User 1
+(3135): INFO    (12:34:40:143 |    0)   3145; audio jitterbuffer new smooth
+(3135):   INFO (12:34:40:143) | peer_stream.cpp:254: startAudioRecord uid:1
+(3135): INFO    (12:34:40:143 |    0)   3145; invoked by unmute, ignore. uid = 1
+(3135):   INFO (12:34:41:003) | peer_stream.cpp:754: onDecodeAudio uid:1 audio channels:1
+(3135): WARN    (12:34:41: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:43: 44 |    0)   3149; audio device captured signal too small
+(3135): NOTICE (12:34:43:528) | event_handler.cpp:860: session is receiving audio 
+(3135): NOTICE (12:34:43:528) | event_handler.cpp:890: trigger receiving stream status changed
+(3135): WARN    (12:34:45: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:47: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:49: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:51: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:34:53: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:34:55: 33 |    0)   3149; Audio statistics - play count: playout count = 600  signal level: far_in = 26
+(3135): WARN    (12:34:55: 44 |   11)   3149; audio device captured signal too small
+(3135): INFO    (12:34:55: 74 |   30)   3149; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 26
+(3135): WARN    (12:34:57: 44 |    0)   3149; audio device captured signal too small
+(3135): NOTICE (12:34:58:029) | event_handler.cpp:926: [ARS/15s]event cnts:31, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): INFO    (12:34:58: 29 |    0)   3135; [ARS/15s]event cnts:31, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): WARN    (12:34:59: 44 |   15)   3149; audio device captured signal too small
+(3135): WARN    (12:35: 1: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35: 2: 61 |   17)   3145; **CALL STATS: duration 1m1s cpu app/total 3.14/3.25 battery 255 tx/rx: 5/188 kbps 76.801K/2.323M bytes
+(3135): WARN    (12:35: 3: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35: 5: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35: 7: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35: 7: 62 |   18)   3145; [rs] **report stats: seq: 144, report list size 0, tx/rx: 33902/8256, cache size: 0
+(3135): INFO    (12:35: 7: 62 |    0)   3145; [rs] report server1: 129.227.205.98:8913
+(3135): WARN    (12:35: 9: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:11: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35:13: 33 |    0)   3149; Audio statistics - play count: playout count = 600  signal level: far_in = 26
+(3135): WARN    (12:35:13: 44 |   11)   3149; audio device captured signal too small
+(3135): INFO    (12:35:13: 74 |   30)   3149; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 26
+(3135): WARN    (12:35:15: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:17: 44 |    0)   3149; audio device captured signal too small
+(3135): NOTICE (12:35:18:029) | event_handler.cpp:926: [ARS/15s]event cnts:30, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): INFO    (12:35:18: 29 |    0)   3135; [ARS/15s]event cnts:30, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+(3135): WARN    (12:35:19: 44 |   15)   3149; audio device captured signal too small
+(3135): WARN    (12:35:21: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:23: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:25: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:27: 44 |    0)   3149; audio device captured signal too small
+(3135): WARN    (12:35:29: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35:31: 33 |    0)   3149; Audio statistics - play count: playout count = 600  signal level: far_in = 26
+(3135): WARN    (12:35:31: 44 |   11)   3149; audio device captured signal too small
+(3135): INFO    (12:35:31: 74 |   30)   3149; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 26
+(3135): WARN    (12:35:33: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35:34: 62 |   18)   3145; **CALL STATS: duration 1m33s cpu app/total 3.26/2.97 battery 255 tx/rx: 6/184 kbps 105.251K/3.46M bytes
+(3135): WARN    (12:35:35: 44 |    0)   3149; audio device captured signal too small
+(3135): INFO    (12:35:36:763 |  719)   3145; [pm] peer 1 is offline: quit(0)
+(3135): INFO    (12:35:36:763 |    0)   3145; stopRemoteVideo: uid=1
+(3135): NOTICE (12:35:36:763) | event_handler.cpp:1551: User 1 quit
+(3135): INFO    (12:35:36:763 |    0)   3144; User 1 quit
+(3135): NOTICE (12:35:36:763) | media_file_legacy.cpp:953: LegacyMediaFile::UpdateUserOfflineStatePerJoinuid=1,IsUserOffline_=1
+(3135): NOTICE (12:35:36:763) | peer_stream.cpp:232: status changed uid:1 isMuteVideo:0 enabledVideo:1 enabledLocalVideo:1 online:0
+(3135): NOTICE (12:35:36:763) | peer_stream.cpp:235: status changed uid:1 isMuteAudio:0 enabledAudio:1 enabledLocalAudio:1 online:0
+(3135): NOTICE (12:35:36:764) | event_handler.cpp:2060: SET_VIDEO_MIXING_LAYOUT_URI
+(3135): INFO    (12:35:36:764 |    1)   3135; SET_VIDEO_MIXING_LAYOUT_URI
+(3135): NOTICE (12:35:36:764) | event_handler.cpp:2049: set mixing video layout count: 2
+(3135): INFO    (12:35:36:764 |    0)   3135; set mixing video layout count: 2
+(3135): INFO    (12:35:36:784 |   20)   3145; Destroy decoder.
+(3135): INFO    (12:35:36:784 |    0)   3145; Destroy decoder.
+(3135):   INFO (12:35:36:784) | peer_stream.cpp:344: stopVideoRecord uid:1
+(3135): INFO    (12:35:36:784 |    0)   3145; DestroyVideoReceiveTrack: uid=1
+(3135): INFO    (12:35:36:784 |    0)   3145; VideoReceiveTrackImpl::UpdateRenderer, track_id=1, renderer=(nil)
+(3135): INFO    (12:35:36:784 |    0)   3145; CreateVideoRenderer: interface=(nil)
+(3135): INFO    (12:35:36:784 |    0)   3145; [MIO] video receive track for uid[1] been removed
+(3135): INFO    (12:35:36:784 |    0)   3145; [che] onPeerOffline: uid 1 STOPPED by OFFLINE, and to be erased, m_validPeers.size() 1
+(3135): INFO    (12:35:36:784 |    0)   3145; [che] clearPeerInMap: uid 1 to be removed
+(3135): INFO    (12:35:36:784 |    0)   3145; audio setPeerAudioMuteStatus: uid 1 muted 1
+(3135): INFO    (12:35:36:784 |    0)   3145; audio flushPeerNetEQBuffer: uid 1
+(3135):   INFO (12:35:36:784) | event_handler.cpp:1437: onRemoteVideoStateChanged uid:1, new video state:0
+(3135): INFO    (12:35:37: 28 |    0)   3145; notifyPeerCount: cnt 0
+(3135): WARN    (12:35:37: 44 |   16)   3149; audio device captured signal too small
+(3135): NOTICE (12:35:37:284) | event_handler.cpp:1998: event_loop Required to stop :0
+(3135): INFO    (12:35:37:285 |  241)   3135; event_loop Required to stop :0
+(3135): NOTICE (12:35:37:285) | event_handler.cpp:804: Before cleanup cnt 0, errno 11 4, joined_ 1, term_sig 0, leave path code 16
+(3135): NOTICE (12:35:37:285) | event_handler.cpp:212: Leaving channel and ready to cleanup
+(3135): WARN    (12:35:37:285 |    0)   3135; Before cleanup cnt 0, errno 11 4, joined_ 1, term_sig 0, leave path code 16
+(3135): INFO    (12:35:37:285 |    0)   3135; Leaving channel and ready to cleanup
+(3135): INFO    (12:35:37:285 |    0)   3145; Recording LeaveEvent Argus report.......
+(3135):   INFO (12:35:37:285) | event_handler.cpp:2127: stopService muteRemoteAudio/Video
+(3135):   INFO (12:35:37:285) | peer_stream.cpp:344: stopVideoRecord uid:1
+(3135):   INFO (12:35:37:285) | peer_stream.cpp:297: stopAudioRecord uid:1
+(3135):   INFO (12:35:37:285) | peer_stream.cpp:344: stopVideoRecord uid:0
+(3135):   INFO (12:35:37:285) | AVEncoder.cpp:860: uid 0 extra_event 2
+(3135):   INFO (12:35:37:285) | AVRecoder.cpp:119: AVRecoder uid 0 extra_event 2
+(3135):   INFO (12:35:37:285) | peer_stream.cpp:297: stopAudioRecord uid:0
+(3135):   INFO (12:35:37:285) | AVEncoder.cpp:860: uid 0 extra_event 1
+(3135):   INFO (12:35:37:285) | AVEncoder.cpp:405: ~AudioEncoder 4294967295
+(3135):   INFO (12:35:37:285) | AVRecoder.cpp:119: AVRecoder uid 0 extra_event 1
+(3135):   INFO (12:35:37:285) | AVEncoder.cpp:860: uid 0 exdio.mute_pee(3135): INFO    (12:35:37:285 |    0)   3145; [rp] {"rtc.audio.mute_peers":true}
+(3135): INFO    (12:35:37:285 |    0)   3145; [ds]: ver 2 ds '{"streamType":4,"clientRole":2}'
+(3135):   INFO (12:35:37:285) | AVRecoder.cpp:119: AVRecoder uid 0 extra_event 3
+(3135):   INFO (12:35:37:285) | AVRecoder.cpp:181: Mixing recorder reload , mixRec->IsCodecChanged(inData):0, IsSplit(inData->sid, _ST_ALL):0, inData->codecType:-1,mixRec->Valid():1,mixRec->isNeedSegmentation(inData):0, inData->extra_event:3
+(3135):   INFO (12:35:37:285) | event_handler.cpp:65: multi_muxer.cpp:84: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633
+(3135):   INFO (12:35:37:285) | event_handler.cpp:65: ff_muxer.cpp:355: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4
+(3135): INFO    (12:35:37:285 |    0)   3145; [ch0] sync (cid:676538068, uid:3110021523, sync:2): 154.57.32.72:4003
+(3135): INFO    (12:35:37:285 |    0)   3145; [rp] {"rtc.video.mute_peers":true}
+(3135):   INFO (12:35:37:287) | event_handler.cpp:65: ff_muxer.cpp:372: stop ff_muxer free context
+(3135):   INFO (12:35:37:287) | event_handler.cpp:65: ff_muxer.cpp:41: ~FFMuxer filename: /home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4 muxer deconstruct
+(3135):   INFO (12:35:37:287) | event_handler.cpp:65: ff_muxer.cpp:355: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633.mp4
+(3135):   INFO (12:35:37:287) | event_handler.cpp:65: multi_muxer.cpp:26: ~MultiMuxer file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633
+(3135):   INFO (12:35:37:287) | event_handler.cpp:65: multi_muxer.cpp:84: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093400633
+(3135):   INFO (12:35:37:287) | file_info.cpp:436: CleanupSession
+(3135): INFO    (12:35:37:287 |    2)   3135; API call to leave channel
+(3135): INFO    (12:35:37:287 |    0)   3145; [cm] emit leave channel signal
+(3135): INFO    (12:35:37:287 |    0)   3145; stopLocalRender
+(3135): INFO    (12:35:37:287 |    0)   3145; stopLocalRender success
+(3135): INFO    (12:35:37:287 |    0)   3145; AgoraVideoInput::Stop
+(3135): INFO    (12:35:37:297 |   10)   3145; AgoraVideoInput::Destroy
+(3135): INFO    (12:35:37:378 |   81)   3145; stopCapture: stopCapture success
+(3135): INFO    (12:35:37:378 |    0)   3145; SetStreamState: localVideoState 0, error 0
+(3135): INFO    (12:35:37:378 |    0)   3145; [rtpSender] set paced sender status 0.
+
+(3135): INFO    (12:35:37:378 |    0)   3145; stopRemoteRender
+(3135): INFO    (12:35:37:378 |    0)   3145; stopRemoteVideo: uid=1
+(3135): INFO    (12:35:37:378 |    0)   3145; [che] stopCall begins
+(3135):   INFO (12:35:37:378) | peer_stream.cpp:297: stopAudioRecord uid:0
+(3135):   INFO (12:35:37:378) | AVEncoder.cpp:860: uid 0 extra_event 1
+(3135):   INFO (12:35:37:378) | AVRecoder.cpp:119: AVRecoder uid 0 extra_event 1
+(3135):   INFO (12:35:37:378) | AVRecorderImpl.cpp:104: New mixing record file:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093537378.ts limitDuration:0, mixed_video_audio : 2
+(3135):   INFO (12:35:37:379) | event_handler.cpp:65: multi_muxer.cpp:20: MultiMuxer file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093537378
+(3135):   INFO (12:35:37:379) | event_handler.cpp:65: multi_muxer.cpp:102: addTargetFile type:-1
+(3135):   INFO (12:35:37:379) | event_handler.cpp:65: multi_muxer.cpp:102: addTargetFile type:1
+(3135): INFO    (12:35:37:379 |    1)   3145; StopRecording complete
+(3135): INFO    (12:35:37:379 |    0)   3145; StopPlayout complete
+(3135): INFO    (12:35:37:379 |    0)   3145; [che] stop call returns 0, elapsed 1
+(3135): INFO    (12:35:37:379 |    0)   3145; [time] process EngineStopCall takes 1
+(3135): INFO    (12:35:37:379 |    0)   3145; [rs] **report stats: seq: 194, report list size 13, tx/rx: 41949/10032, cache size: 0
+(3135): INFO    (12:35:37:379 |    0)   3145; [rs] report server1: 154.57.32.32:8913
+(3135): INFO    (12:35:37:379 |    0)   3145; [cm] connection state changed from 3 to 1
+(3135): INFO    (12:35:37:379 |    0)   3145; **CALL STATS: duration 1m39s, tx 110.351K bytes, rx 3.148M bytes, total 3.258M bytes
+(3135): INFO    (12:35:37:379 |    0)   3145; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:35:37:379 |    0)   3145; [ch0] vos destroyed
+(3135): INFO    (12:35:37:379 |    0)   3145; delRef of media engine, ref=0
+(3135): INFO    (12:35:37:379 |    0)   3145; [che] chat engine destroying
+(3135): INFO    (12:35:37:379 |    0)   3145; stopLocalRender
+(3135): INFO    (12:35:37:379 |    0)   3145; stopLocalRender success
+(3135): WARN    (12:35:37:379 |    0)   3145; stopCapture: VideoEngine haven't startCapture
+(3135): INFO    (12:35:37:379 |    0)   3145; stopRemoteRender
+(3135): INFO    (12:35:37:379 |    0)   3145; stopRemoteVideo: uid=1
+(3135): INFO    (12:35:37:379 |    0)   3145; [che] stopCall begins
+(3135): INFO    (12:35:37:379 |    0)   3145; [che] stop call returns -1, elapsed 0
+(3135): INFO    (12:35:37:379 |    0)   3145; VideoSendTrackImpl::UpdateCapturer capturer=(nil)
+(3135): INFO    (12:35:37:379 |    0)   3145; CreateVideoCapturer: interface=(nil)
+(3135): INFO    (12:35:37:380 |    1)   3145; VideoSendTrackImpl::UpdateRenderer, renderer=(nil)
+(3135): INFO    (12:35:37:380 |    0)   3145; CreateVideoRenderer: interface=(nil)
+(3135): INFO    (12:35:37:380 |    0)   3145; stopLocalRender: Cannot stop renderer -1 (not exist)
+(3135): INFO    (12:35:37:380 |    0)   3145; stopRemoteRender
+(3135): INFO    (12:35:37:380 |    0)   3145; stopRemoteVideo: uid=1
+(3135): WARN    (12:35:37:380 |    0)   3145; stopCapture: VideoEngine haven't startCapture
+(3135): INFO    (12:35:37:400 |   20)   3145; PipelineManager::SetDest  engine = (nil)
+(3135): WARN    (12:35:37:400 |    0)   3145; terminate: VideoEngine haven't init
+(3135): INFO    (12:35:37:400 |    0)   3145; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+(3135): INFO    (12:35:37:411 |   11)   3145; Delete participant 1
+(3135): INFO    (12:35:37:411 |    0)   3145; AgoraCameraCapture::Dispose
+(3135):   INFO (12:35:37:442) | peer_stream.cpp:297: stopAudioRecord uid:1
+(3135): INFO    (12:35:37:463 |   52)   3145; [che] chat engine destroyed
+(3135): INFO    (12:35:37:463 |    0)   3145; ***CALL END
+(3135): INFO    (12:35:37:463 |    0)   3145; onAudioStatusChanged enable audio
+(3135): INFO    (12:35:37:463 |    0)   3145; [MIO] media io controller destroyed
+(3135): INFO    (12:35:37:463 |    0)   3135; async task worker thread exited gracefully
+(3135): INFO    (12:35:37:463 |    0)   3146; Agora Service Worker Thread stopped: 0x5082cd8
+(3135): INFO    (12:35:37:464 |    1)   3145; [rs] All - total: 213/234, valid: 175/187
+(3135): INFO    (12:35:37:464 |    0)   3145; [rs] Counter - total: 140/142, valid: 105/107
+(3135): INFO    (12:35:37:464 |    0)   3145; [rs] Event - total: 73/92, valid: 70/80
+(3135): INFO    (12:35:37:464 |    0)   3145; [rs] **report stats: seq: 198, report list size 13, tx/rx: 42525/10224, cache size: 0
+(3135): INFO    (12:35:37:464 |    0)   3145; [rs] report server1: 154.57.32.32:8913
+(3135): INFO    (12:35:37:464 |    0)   3145; Agora Service Worker Thread stopped: 0x5082798
+(3135): INFO    (12:35:37:464 |    0)   3135; CacheManager: save cache to storage elapsed 0
+(3135): INFO    (12:35:37:464 |    0)   3135; CacheManager: save report cache to storage failed
+(3135):   INFO (12:35:37:495) | event_handler.cpp:65: multi_muxer.cpp:84: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093537378
+(3135):   INFO (12:35:37:495) | event_handler.cpp:65: multi_muxer.cpp:26: ~MultiMuxer file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093537378
+(3135):   INFO (12:35:37:495) | event_handler.cpp:65: multi_muxer.cpp:84: stop file name:/home/antonio/agora-recording/server/output/recording/c741214e-16b7-4113-bd88-ff3294d8f231/0_20230708093537378
+(3135):   INFO (12:35:37:495) | file_info.cpp:436: CleanupSession
+(3135):   INFO (12:35:37:495) | AVEncoder.cpp:837: ~AVEncoder
+(3135):   INFO (12:35:37:495) | main.cpp:510: video server handler run finished with 0
+(3135): NOTICE (12:35:37:495) | event_handler.cpp:189: event handler delete timer
+(3135): NOTICE (12:35:37:495) | media_file_legacy.cpp:79: ~LegacyMediaFile
+(3135): NOTICE (12:35:37:496) | media_file_legacy.cpp:79: ~LegacyMediaFile
