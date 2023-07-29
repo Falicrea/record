@@ -4,8 +4,8 @@ const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 
 const recordingPath = "public/output/recording";
-const canvasWidth = 1280;
-const canvasHeight = 720;
+const canvasWidth = 720;
+const canvasHeight = 1280;
 
 class RecordManager {
   constructor() {

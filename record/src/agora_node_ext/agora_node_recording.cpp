@@ -62,7 +62,7 @@ namespace agora {
                 {"3840x2160", "12000"},
                 {"2560x1440", "6400"},
                 {"1920x1080", "4000"},
-                {"1280x720", "2400"},
+                {"720x1280", "2400"},
                 {"960x720", "1920"},
                 {"848x480", "1200"},
                 {"640x480", "1000"},
@@ -126,11 +126,10 @@ namespace agora {
                 config.isMixingEnabled = true;
                 config.mixedVideoAudio = agora::linuxsdk::MIXED_AV_CODEC_V2;
                 config.idleLimitSec = 10;
-                // config.decodeVideo = agora::linuxsdk::VIDEO_FORMAT_MIX_JPG_FILE_TYPE;
+                config.audioProfile = agora::linuxsdk::AUDIO_PROFILE_HIGH_QUALITY_STEREO;
                 config.channelProfile = agora::linuxsdk::CHANNEL_PROFILE_LIVE_BROADCASTING;
-                // config.captureInterval = 1;
                 config.triggerMode = agora::linuxsdk::AUTOMATICALLY_MODE;
-                config.mixResolution = "640,480,15,500";
+                config.mixResolution = "1280,720,30,3420";
 
                 agora::linuxsdk::VideoMixingLayout layout = pRecording->m_agorasdk->getMixLayout();
                 std::stringstream out;
@@ -148,7 +147,7 @@ namespace agora {
                     resolutionValue = pRecording->m_resolutionMap[it->first];
                 }
                 out.str("");
-                out << layout.canvasWidth << "," << layout.canvasHeight << ",15," << resolutionValue;
+                out << layout.canvasWidth << "," << layout.canvasHeight << ",30," << resolutionValue;
                 string mixResolution = out.str();
                 config.mixResolution = &mixResolution[0u];
                 config.audioIndicationInterval = 0;
