@@ -151,11 +151,15 @@ class RecordManager {
 
   async onGetFile(channelName) {
     try {
-      const folderExists = fs.existsSync(`${recordingPath}/${channelName}`);
+      const storagePath = path.resolve(
+        __dirname,
+        `${recordingPath}/${channelName}`
+      );
+      const folderExists = fs.existsSync(storagePath);
       if (!folderExists) {
         throw new Error('Le channel n\'exist pas');
       }
-      const files = fs.readdirSync(`${recordingPath}/${channelName}`);
+      const files = fs.readdirSync(storagePath);
       for (file of files) {
         if (path.extname(file) == ".mp4") {
           return `/record/${channelName}/${file}`;
