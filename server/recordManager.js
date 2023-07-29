@@ -160,7 +160,7 @@ class RecordManager {
         throw new Error('Le channel n\'exist pas');
       }
       const files = fs.readdirSync(storagePath);
-      for (file of files) {
+      for (const file of files) {
         if (path.extname(file) == ".mp4") {
           return `/record/${channelName}/${file}`;
         }
