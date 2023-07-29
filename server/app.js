@@ -71,7 +71,7 @@ app.get("/recorder/v1/file/:path", async (req, res, next) => {
 
 });
 
-app.remove("/recorder/v1/file/:channel", async (req, res, next) => {
+app.delete("/recorder/v1/file/:channel", async (req, res, next) => {
   const { channel } = req.params;
   try {
     const { token } = req.query;
