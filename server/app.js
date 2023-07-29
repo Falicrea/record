@@ -7,7 +7,6 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use('/record', express.static(__dirname + '/public/output/recording'));
-app.use('/record',express.directory(__dirname + '/public/output/recording'));
 app.get('/', (req, res) => {
   res.send('API Rec');
 });
