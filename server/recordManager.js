@@ -151,14 +151,9 @@ class RecordManager {
 
   async onGetFile(channelName) {
     try {
-      const storagePath = path.resolve(
-        __dirname,
-        `${recordingPath}/${channelName}`
-      );
+      const storagePath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
       const folderExists = fs.existsSync(storagePath);
-      if (!folderExists) {
-        throw new Error('Le channel n\'exist pas');
-      }
+      if (!folderExists) throw new Error('Le channel n\'exist pas');
       const files = fs.readdirSync(storagePath);
       for (const file of files) {
         if (path.extname(file) == ".mp4") {
@@ -169,6 +164,29 @@ class RecordManager {
       console.log(er.message);
       return null;
     }
+  }
+
+  async onRemoveChannel(channelName) {
+    const storagePath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
+    const result = fs.rmdirSync(storagePath, {recursive: true, force: true});
+    return true;
+  }
+
+  async getAllChannel() {
+    const isFolder = fileName => {
+      return !fs.lstatSync(fileName).isFile();
+    };
+    const storagePath = path.resolve(__dirname, recordingPath);
+    return fs.readdirSync(storagePath)
+      .map(fileName => {
+        return path.join(storagePath, fileName);
+
+      })
+      .filter(isFolder)
+      .map((pathDir) => {
+        const splitPath = pathDir.split('/');
+        return splitPath[splitPath.length - 1];
+      });
   }
 }
 
