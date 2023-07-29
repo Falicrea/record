@@ -4,5 +4,5 @@ if [ "$(docker ps -q -f name=api_record)" ]; then
     docker rm $container_id
 fi
 
-docker build . -t lovici/api-record
-docker run --restart=always --name=api_record -p 3030:3000 -d locivi/api-record
+docker build . -t lovici-api-record
+docker run --restart=always --name=api_record -p 3030:3000 -d locivi-api-record
