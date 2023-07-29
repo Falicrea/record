@@ -158,7 +158,7 @@ class RecordManager {
       const files = fs.readdirSync(`${recordingPath}/${channelName}`);
       for (file of files) {
         if (path.extname(file) == ".mp4") {
-          return `/output/recording/${channelName}/${file}`;
+          return `/record/${channelName}/${file}`;
         }
       }
     } catch(er) {
