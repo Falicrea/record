@@ -77,9 +77,10 @@ app.delete("/recorder/v1/file/:channel", async (req, res, next) => {
     const { token } = req.query;
     if (!token || tk !== utf8ToHex(token.trim())) throw new Error('Not found or Invalid cridential');
     if (!channel) throw new Error('Undefined param');
-    const file = await RecordManager.onRemoveChannel(channel.trim());
+    await RecordManager.onRemoveChannel(channel.trim());
     return res.status(200).json({
-      success: true
+      success: true,
+      channel: channel
     });
   } catch (er) {
     return res.json({
