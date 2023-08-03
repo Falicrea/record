@@ -35,7 +35,7 @@ app.post("/recorder/v1/start", (req, res, next) => {
     })
     .catch((e) => {
       //start recorder failed
-      next(e);
+      res.status(402).json({success: false, message: e.message});
     });
 });
 
@@ -45,11 +45,15 @@ app.post("/recorder/v1/stop", (req, res, next) => {
   if (!sid) {
     throw new Error("sid is mandatory");
   }
+  try {
+    RecordManager.stop(sid);
+    res.status(200).json({
+      success: true,
+    });
+  } catch(e) {
+    res.status(402).json({success: false});
+  }
 
-  RecordManager.stop(sid);
-  res.status(200).json({
-    success: true,
-  });
 });
 
 app.get("/recorder/v1/file/:path", async (req, res, next) => {
@@ -83,6 +87,7 @@ app.delete("/recorder/v1/file/:channel", async (req, res, next) => {
       channel: channel
     });
   } catch (er) {
+    console.log(`Error on remove channel: ${channel}`);
     return res.json({
       success: false,
       message: er.message

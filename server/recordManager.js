@@ -168,6 +168,7 @@ class RecordManager {
 
   async onRemoveChannel(channelName) {
     const storagePath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
+    console.log(`Delete channel ${channelName}`);
     fs.rmdirSync(storagePath, {recursive: true, force: true});
     return true;
   }
