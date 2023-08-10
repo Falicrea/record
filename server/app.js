@@ -3,6 +3,7 @@ const app = express();
 const port = 3000;
 const RecordManager = require("./recordManager");
 const bodyParser = require("body-parser");
+const fs = require('fs');
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
@@ -110,6 +111,26 @@ app.get('/recorder/channels', async (req, res, next) => {
       message: er.message
     });
   }
+});
+
+app.get('/stream/:channelName', (req, res) => {
+  try {
+    const recordingPath = "public/output/recording";
+    const filepath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
+    const { size } = fs.statSync(filepath);
+    const readStreamfile = fs.createReadStream(filepath, {
+      start: 0,
+      end: size,
+      hightWaterMark: 10
+    });
+    readStreamfile.pipe(res);
+  } catch(er) {
+    res.json({
+      success: false,
+      message: er.message
+    });
+  }
+
 });
 
 app.use((err, req, res, next) => {port
