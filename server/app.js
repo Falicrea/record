@@ -1,9 +1,10 @@
 const express = require("express");
+const fs = require('fs');
+const path = require("path");
 const app = express();
 const port = 3000;
 const RecordManager = require("./recordManager");
 const bodyParser = require("body-parser");
-const fs = require('fs');
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
@@ -65,6 +66,7 @@ app.get("/recorder/v1/file/:path", async (req, res, next) => {
     return res.status(200).json({
       success: true,
       path: file,
+      streamURL: `/stream/${path}`
     });
   } catch (er) {
     return res.json({
@@ -113,15 +115,27 @@ app.get('/recorder/channels', async (req, res, next) => {
   }
 });
 
-app.get('/stream/:channelName', (req, res) => {
+app.get('/stream/:channelName', async (req, res) => {
   try {
+    const { channelName } = req.params;
     const recordingPath = "public/output/recording";
-    const filepath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
+    const storagePath = path.resolve(__dirname, `${recordingPath}/${channelName}`);
+    const folderExists = fs.existsSync(storagePath);
+    if (!folderExists) throw new Error('Le channel n\'exist pas');
+    const files = fs.readdirSync(storagePath);
+    let videoFileName = "";
+    for (const file of files) {
+      if (path.extname(file) == ".mp4") {
+        videoFileName = file;
+        break;
+      }
+    }
+    if (!videoFileName) throw new Error('Fichier videos n\'exist pas');
+
+    const filepath = `${storagePath}/${videoFileName}`;
     const { size } = fs.statSync(filepath);
     const readStreamfile = fs.createReadStream(filepath, {
-      start: 0,
-      end: size,
-      hightWaterMark: 10
+      hightWaterMark: 60
     });
     readStreamfile.pipe(res);
   } catch(er) {
