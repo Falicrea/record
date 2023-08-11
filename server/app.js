@@ -63,10 +63,11 @@ app.get("/recorder/v1/file/:path", async (req, res, next) => {
   try {
     if (!path) throw new Error('Undefined param');
     const file = await RecordManager.onGetFile(path.trim());
+    if (!file) throw new Error("File not found");
     return res.status(200).json({
       success: true,
       path: file,
-      streamURL: `/stream/${path}`
+      streamURL: `/stream/${path}/v.mp4`
     });
   } catch (er) {
     return res.json({
@@ -115,7 +116,7 @@ app.get('/recorder/channels', async (req, res, next) => {
   }
 });
 
-app.get('/stream/:channelName', async (req, res) => {
+app.get('/stream/:channelName/v.mp4', async (req, res) => {
   try {
     const { channelName } = req.params;
     const recordingPath = "public/output/recording";
